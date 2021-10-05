@@ -57,7 +57,7 @@ int sum(int x, int y) {
 
 ```-emit-llvm```标志告诉clang根据是否存在```-c```或```-S```标志来生成LLVM bitcode或者LLVM汇编码文件
 |命令|产物|
-|--|--|
+|:-----|:-----|
 |```-c```|LLVM bitcode|
 |```-S```|LLVM 汇编码|
 
